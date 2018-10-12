@@ -1,0 +1,105 @@
+.each_question .user_image {
+    float: left;
+    padding:5px;
+}
+
+.each_question .each_question_comment{
+    float: left;
+    padding-left: 5px;
+}
+
+.each_question .each_question_comment .aksed_by a {
+    font-weight: bold;
+    color: #224a89;
+    cursor: pointer;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+
+.each_question .each_question_comment .aksed_by a:hover {
+    text-decoration: underline;
+}
+
+
+.each_question .each_question_comment .asked_date {
+    color: #6b6e72;
+    font-size: 12px;
+}
+
+.each_question .each_question_comment .noofans {
+    color: #6b6e72;
+    font-size: 12px;
+}
+
+.each_question .each_question_comment .asked_question {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.each_question .each_question_comment .asked_question a {
+    text-decoration: none;
+    color: #134ba5;
+}
+
+.each_question .each_question_comment .asked_question a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the reply of the forum question */
+
+.each_reply {
+    position: relative;
+}
+
+.each_reply .user_image {
+    float: left;
+    padding: 5px;
+}
+
+.each_reply .each_reply_comment {
+    float: left;
+    padding-left: 5px;
+}
+
+.each_reply .each_reply_comment .displayuser {
+    font-weight: bold;
+    color: #224a89;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+.each_reply .each_reply_comment .displayuser:hover {
+    text-decoration: underline;
+}
+
+
+.each_reply .each_reply_comment .displaydate {
+    color: #6b6e72;
+    font-size: 12px;
+}
+
+.each_reply .each_reply_comment .displaycomment {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.each_reply .agree_button {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    background-color: #39f;
+    padding: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.each_reply .agree_button a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.each_reply .agree_button:hover {
+    background-color: #3465b5;
+}
