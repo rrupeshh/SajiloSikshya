@@ -1,0 +1,69 @@
+fieldset {
+    border-color: #a1a1a1;
+    border-width: 0.5px;
+    width: 80%;
+    margin: 10px auto 30px auto;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    position: relative;
+    transition: transform 0.2s, background 0.2s;
+    cursor: pointer;
+    padding: 20px;
+}
+fieldset:hover {
+    transform: scale(1.02);
+}
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+input[type="submit"] {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    transition: border 0.3s;
+    background: #39f;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+    float: right;
+}
+input[type="submit"]:active {
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5) inset;
+}
+
+#textarea {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 4px;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    font-size: 18px;
+    height: 50px;
+    transition: border 0.3s, height 0.3s, box-shadow 0.3s;
+}
+
+#textarea:focus {
+    border: 1px solid #39f;
+    height: 100px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+input[type="text"] {
+    width: 100%;
+    margin: 10px auto;
+    padding: 4px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    transition: border 0.3s,box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #39f;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+select[name="set"] {
+    width: 100px;
+}
