@@ -73,7 +73,7 @@
 
                     <div id="main_header_links">
                         <div>
-                            <a href="Index.php">Sign Up</a>
+                            <a href="index.php">Sign Up</a>
                             <a href="javascript: void(0)">Log In</a>
                         </div>
                         <div>
