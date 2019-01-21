@@ -1,6 +1,6 @@
 # Sajilo Sikshya
 
-## This is an E-Learning Website developed as a semester project.
+## This is an E-Learning Website developed as a semester project(3rd Sem).
 
 ### Tools Used
 1. Html
