@@ -17,7 +17,7 @@
 ?>
 
 <?php 
-    $date = date("y-m-d"); // getting the server date
+    $date = date("y-m-d"); // Getting the server date
     $numofans = 0;
     $question = "";
 
@@ -31,7 +31,7 @@
                 INSERT INTO forum_questions VALUES (NULL,'$firstname','$lastname','$username','$question','$date','$numofans');
             ";
 
-            mysqli_query($con, $sql); // insert the comment into the database
+            mysqli_query($con, $sql); 
 
             header('Location: Main_Forum.php');
         } else {
